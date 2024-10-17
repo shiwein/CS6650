@@ -1,10 +1,14 @@
+### Dont ignore the .war
 target/
+
+# But do not ignore .war files in target/
+!target/*.war
+
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### Dont ignore the .war
-!target/Server-1.0-SNAPSHOT.war
+
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
